@@ -15,7 +15,7 @@
   /* height: 80px; */
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'IBM Plex Sans';
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -28,7 +28,7 @@
   width: 394px;
   height: 94px;
 
-  font-family: 'IBM Plex Sans';
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 600;
   font-size: 27px;
@@ -42,7 +42,7 @@
   width: 394px;
   height: 63px;
 
-  font-family: 'IBM Plex Sans';
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 600;
   font-size: 27px;
@@ -56,7 +56,7 @@
   width: 327px;
   height: 60px;
 
-  font-family: 'IBM Plex Sans';
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -72,7 +72,7 @@
   width: 327px;
   height: 140px;
 
-  font-family: 'IBM Plex Sans';
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -88,7 +88,7 @@
   width: 327px;
   height: 120px;
 
-  font-family: 'IBM Plex Sans';
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -106,7 +106,7 @@
   /* padding-left: 30px;
   padding-top: 16px; */
 
-  font-family: 'IBM Plex Sans';
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -164,7 +164,7 @@ header {
 }
 
 .logo {
-  width: 144px;
+  width: 154px;
   height: 24px;
   display: flex;
   list-style: none;
@@ -177,7 +177,7 @@ header {
 
 .logo-text {
   margin-left: 8px;
-  font-family: 'IBM Plex Sans';
+  font-family: 'Arial';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
