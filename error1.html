@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,8 +14,8 @@
     />
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header style="margin-top: 36px; margin-bottom: 24px">
+      <div style="width: 600px; margin-left: auto; margin-right: auto">
         <!-- <svg
           width="144"
           height="24"
@@ -34,7 +34,19 @@
             fill="black"
           />
         </svg> -->
-        <section class="logo">
+        <section
+          style="
+            width: 154px;
+            height: 24px;
+            display: flex;
+            list-style: none;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+          "
+        >
           <svg
             width="24"
             height="24"
@@ -49,31 +61,109 @@
               fill="#008C95"
             />
           </svg>
-          <section class="logo-text">
-            <a href="#"><b>Иди и Смотри</b></a>
+          <section
+            style="
+              margin-left: 8px;
+              font-family: 'Arial';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 17px;
+              line-height: 24px;
+
+              text-decoration: none;
+              color: black;
+            "
+          >
+            <a style="text-decoration: none; color: black" href="#"
+              ><b>Иди и Смотри</b></a
+            >
           </section>
         </section>
         <hr />
       </div>
     </header>
-    <main>
-      <div class="container">
-        <div class="main-part">
-          <section class="main-text-header1">
-            <a href="error2.html"
-              >Вам назначено задание <br />
-              в рамках производственного контроля</a
-            >
+    <main style="margin-top: 36px">
+      <div style="width: 600px; margin-left: auto; margin-right: auto">
+        <div
+          style="background-color: #e5f3f5; height: 375px; margin-bottom: 40px"
+        >
+          <section
+            style="
+              width: 394px;
+              height: 94px;
+
+              font-family: 'Arial';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 27px;
+              line-height: 31px;
+
+              padding-left: 30px;
+              padding-top: 30px;
+            "
+          >
+            Вам назначено задание <br />
+            в рамках производственного контроля
           </section>
-          <section class="text-error1">
+          <section
+            style="
+              width: 327px;
+              height: 60px;
+
+              font-family: 'Arial';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 20px;
+
+              color: #414141;
+
+              padding-left: 30px;
+              padding-top: 26px;
+            "
+          >
             Чтобы его выполнить, зайдите в систему<br />
             «Иди и Смотри» с компьютера или<br />
             мобильного телефона.
           </section>
-          <section class="main-text-button">
-            <a href="#">Перейти в «Иди и Смотри»</a>
+          <section
+            style="
+              width: 216px;
+              height: 28px;
+              /* padding-left: 30px;
+          padding-top: 16px; */
+
+              font-family: 'Arial';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 24px;
+              text-align: center;
+
+              /* align-items: center; */
+
+              /* padding: 3px 12px 5px; */
+              color: #eef0f1;
+              background: #008c95;
+              border-radius: 4px;
+              margin-top: 16px;
+              margin-left: 30px;
+              padding-top: 4px;
+            "
+          >
+            <a href="#" style="text-decoration: none; color: #eef0f1"
+              >Перейти в «Иди и Смотри»</a
+            >
           </section>
-          <section class="picture">
+          <section
+            style="
+              position: absolute;
+              width: 377.31px;
+              height: 270.6px;
+              left: calc(50% - 377.31px / 2 + 111.66px);
+              top: 192px;
+            "
+          >
             <svg
               width="378"
               height="271"
@@ -562,12 +652,34 @@
           </section>
         </div>
       </div>
-      <div class="automatic">
+      <div
+        style="
+          background-color: #eef0f1;
+          /* height: 80px; */
+          padding-top: 40px;
+          padding-bottom: 40px;
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 15px;
+          text-align: center;
+          color: #757677;
+        "
+      >
         Это письмо сформировано автоматически, отвечать на него не нужно.
       </div>
     </main>
     <footer>
-      <div class="container footer-logo">
+      <div
+        style="
+          width: 600px;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top: 32px;
+          padding-bottom: 32px;
+        "
+      >
         <svg
           width="207"
           height="79"
